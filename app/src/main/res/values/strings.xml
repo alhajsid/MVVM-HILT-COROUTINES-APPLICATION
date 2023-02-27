@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidAssignment</string>
+    <string name="name">Name :</string>
+    <string name="country">Country :</string>
+    <string name="engines_count">Engines Count :</string>
+    <string name="height_amp_diameter_in_feet"><![CDATA[Height & Diameter in Feet :]]></string>
+    <string name="wikipedia_link">Wikipedia link :</string>
+    <string name="description">Description :</string>
+    <string name="cost_per_launch">Cost per launch :</string>
+    <string name="active">Active :</string>
+    <string name="success_rate_percent">Success rate percent :</string>
+</resources>
