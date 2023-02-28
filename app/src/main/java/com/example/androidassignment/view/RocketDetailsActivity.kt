@@ -8,9 +8,7 @@ import com.app.koltinpoc.utils.DataHandler
 import com.example.androidassignment.databinding.ActivityRocketDetailsBinding
 import com.example.androidassignment.model.RocketModel
 import com.example.androidassignment.view.adaptor.FlickerImagesAdapter
-import com.example.androidassignment.view.adaptor.RocketsAdapter
 import com.example.androidassignment.viewModel.RocketDetailsViewModel
-import com.example.androidassignment.viewModel.RocketViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

@@ -30,7 +30,7 @@ class RocketDetailsViewModel @Inject constructor(
     fun getRockets(id:String) {
         this.id=id
         _topHeadlines.postValue(DataHandler.LOADING())
-        if (false) {
+        if (networkConnectivityHelper.isNetworkAvailable) {
             viewModelScope.launch(coroutineExceptionHandler) {
                 val response = networkRepository.getRocket(id)
                 _topHeadlines.postValue(handleResponse(response))
